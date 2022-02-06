@@ -38,6 +38,7 @@ private:
     float total;
     int contador=0;
     bool checkVacio();
+    bool verificarCedula(QString as);
     void enviarDatosdeCompra();
     void calcular(float stProducto);
     void limpiar();
