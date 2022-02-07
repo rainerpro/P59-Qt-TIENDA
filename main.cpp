@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
             traducion.load(":/tienda_portuges.qm");
         }
         // Si es diferente de español, se instala la traducción en TODA la aplicación
-        if (text != "Español"){
+        if (text != QLocale::Spanish){
             a.installTranslator(&traducion);
         }
     Tienda w;
