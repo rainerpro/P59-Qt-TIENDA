@@ -22,6 +22,9 @@ HEADERS += \
 FORMS += \
     factura.ui \
     tienda.ui
+TRANSLATIONS =\
+tienda_japones.ts\
+tienda_portuges.ts
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

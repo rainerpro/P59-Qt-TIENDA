@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>Recursos/tienda.png</file>
+        <file>tienda_japones.qm</file>
+        <file>tienda_portuges.qm</file>
     </qresource>
 </RCC>
